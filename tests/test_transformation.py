@@ -3,7 +3,7 @@ from kwanmath.vector import vnormalize, vcross
 
 from transformation import calcPointToward
 
-def testPointToward():
+def test_calcPointToward():
     """
     /** Exercise pointToward().
 
