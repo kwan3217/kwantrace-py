@@ -1,5 +1,5 @@
-from position_direction import Position
-from transformable import Transformable
+from kwantrace.position_direction import Position
+from kwantrace.transformable import Transformable
 
 
 class Field(Transformable):

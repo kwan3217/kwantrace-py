@@ -1,7 +1,7 @@
 import numpy as np
 from kwanmath.vector import vnormalize, vcross
 
-from transformation import calcPointToward
+from kwantrace.transformation import calcPointToward
 
 def test_calcPointToward():
     """

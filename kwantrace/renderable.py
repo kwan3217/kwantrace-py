@@ -1,10 +1,10 @@
 from kwanmath.vector import vnormalize
 
-from field import ColorField
-from position_direction import Position, Direction
-from ray import Ray
-from transformable import Transformable
-from transformation import Transformation
+from kwantrace.field import ColorField
+from kwantrace.position_direction import Position, Direction
+from kwantrace.ray import Ray
+from kwantrace.transformable import Transformable
+from kwantrace.transformation import Transformation
 
 
 class Renderable(Transformable):
